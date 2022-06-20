@@ -20,9 +20,11 @@
   <link rel="stylesheet" href="css/themify-icons.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/meanmenu.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/style.css">'
-  
+
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -34,17 +36,17 @@
     <div class="header-area">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div class="col-xl-3">
+          <div class="col-xl-3 col-lg-2">
             <div class="logo">
               <a href="index.html"><img src="img/logo.png" alt="logo pic"></a>
             </div>
           </div>
-          <div class="col-xl-9">
-            <div class="hire-btn float-right">
+          <div class="col-xl-9 col-lg-10">
+            <div class="hire-btn d-none d-lg-block  float-right">
               <a href="#">Hire Us</a>
             </div>
             <div class="main-menu float-right">
-              <nav>
+              <nav id="mobile-menu-active">
                 <ul>
                   <li><a href="#">Home</a></li>
                   <li><a href="#">About us</a></li>
@@ -56,6 +58,7 @@
                 </ul>
               </nav>
             </div>
+            <div class="mobile-menu"></div>
           </div>
         </div>
       </div>
@@ -66,7 +69,7 @@
   <div class="slider-area">
     <div class="slider-active">
       <div class="single-slider d-flex align-items-center justify-content-center text-center"
-        style="background-image:url(img/slider-img.jpg)">
+        style=" background-image:url(img/slider-img.jpg)">
         <div class="slider-inner">
           <div class="slider-icon">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -113,24 +116,24 @@
   <!-- features part -->
   <div class="features-area">
     <div class="container">
-      <div class="row theme-bg">
-        <div class="col-xl-4">
-          <div class="single-features text-center">
+      <div class="row blue-bg">
+        <div class="col-xl-4 col-lg-4">
+          <div class="single-features text-center wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
             <i class="ti-pencil-alt"></i>
             <h3>Flexible Solutions</h3>
             <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
           </div>
         </div>
-        <div class="col-xl-4">
-          <div class="single-features text-center">
+        <div class="col-xl-4 col-lg-4">
+          <div class="single-features text-center wow animate__fadeInUp" data-wow-duration=".5s" data-wow-delay="1s">
             <i class="ti-ruler-pencil"></i>
             <h3>Creative Design</h3>
             <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
           </div>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4">
 
-          <div class="single-features text-center border-right-0">
+          <div class="single-features text-center border-right-0 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
             <i class="ti-comment-alt"></i>
             <h3>Premium Support</h3>
             <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elitLorem ipsum dolor</p>
@@ -141,10 +144,10 @@
     </div>
   </div>
   <!-- about-area  -->
-  <div class="about-area pt-100 pb-60">
+  <div class="about-area pt-100 pb-60 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
     <div class="container">
       <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-6 col-lg-6">
           <div class="about-text">
             <h3>We are the leader in Wordpress Theme</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -153,7 +156,7 @@
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
-        <div class="col-xl-6">
+        <div class="col-xl-6 col-lg-6">
           <div class="about-img">
             <img src="img/mac.png" alt="mac pic">
           </div>
@@ -190,11 +193,11 @@
   </div>
 
   <!-- service area  -->
-  <div class="service-area pt-100 pb-100">
+  <div class="service-area pt-100 pb-70">
     <div class="container fluid">
       <div class="row">
-        <div class="col-xl-3">
-          <div class="service-wrapper text-center">
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="service-wrapper text-center mb-30 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" >
             <i class="ti-ruler-pencil"></i>
             <h3>Web Design</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididLorem ipsum dolor
@@ -204,8 +207,8 @@
 
           </div>
         </div>
-        <div class="col-xl-3">
-          <div class="service-wrapper text-center">
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="service-wrapper text-center mb-30 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
             <i class="ti-desktop"></i>
             <h3>Web Development</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididLorem ipsum dolor
@@ -215,8 +218,8 @@
 
           </div>
         </div>
-        <div class="col-xl-3">
-          <div class="service-wrapper text-center">
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="service-wrapper text-center mb-30 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
             <i class="ti-target"></i>
             <h3>Digital Marketing</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididLorem ipsum dolor
@@ -226,8 +229,8 @@
 
           </div>
         </div>
-        <div class="col-xl-3">
-          <div class="service-wrapper text-center">
+        <div class="col-xl-3 col-lg-6 col-md-6">
+          <div class="service-wrapper text-center mb-30 wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
             <i class="ti-headphone-alt"></i>
             <h3>Online Consulting</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididLorem ipsum dolor
@@ -304,31 +307,31 @@
   </div>
 
   <!-- counter area  -->
-  <div class="counter-area theme-bg pt-60 pb-30">
+  <div class="counter-area blue-bg pt-60 pb-30">
     <div class="container">
       <div class="row">
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-3">
           <div class="counter-wrapper text-center mb-30">
             <i class="ti-user"></i>
             <span class="counter">35,000</span>
             <p>Happy Customers</p>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-3">
           <div class="counter-wrapper text-center mb-30">
             <i class="ti-pencil-alt"></i>
             <span class="counter">15,250</span>
             <p>Running Design</p>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-3">
           <div class="counter-wrapper text-center mb-30">
             <i class="ti-cup"></i>
             <span class="counter">9,270</span>
             <p>Coffee cups</p>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-3">
           <div class="counter-wrapper text-center mb-30">
             <i class="ti-check-box"></i>
             <span class="counter">52,300</span>
@@ -342,7 +345,7 @@
   <div class="team-area">
     <div class="container-custom">
       <div class="row no-gutters">
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-6">
           <div class="team-wrapper text-center">
             <div class="team-img">
               <img src="img/teamMember1.jpg" alt="member pic">
@@ -359,7 +362,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-6">
           <div class="team-wrapper text-center">
             <div class="team-img">
               <img src="img/teamMember2.jpg" alt="member pic">
@@ -376,7 +379,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-6">
           <div class="team-wrapper text-center">
             <div class="team-img">
               <img src="img/teamMember3.jpg" alt="member pic">
@@ -393,7 +396,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3">
+        <div class="col-xl-3 col-lg-3 col-md-6">
           <div class="team-wrapper text-center">
             <div class="team-img">
               <img src="img/teamMember4.jpg" alt="member pic">
@@ -426,7 +429,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4">
           <div class="latest-blog mb-30">
             <div class="blog-thumb">
               <a href="#"><img src="img/img.jpg" alt="blog pic"></a>
@@ -444,7 +447,7 @@
 
           </div>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4">
           <div class="latest-blog mb-30">
             <div class="blog-thumb">
               <a href="#"><img src="img/img2.jpg" alt="blog pic"></a>
@@ -462,7 +465,7 @@
 
           </div>
         </div>
-        <div class="col-xl-4">
+        <div class="col-xl-4 col-lg-4">
           <div class="latest-blog mb-30">
             <div class="blog-thumb">
               <a href="#"><img src="img/img3.jpg" alt="blog pic"></a>
@@ -546,20 +549,59 @@
       </div>
     </div>
   </div>
+  <div class="google-map pb-50">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117658.84846549504!2d89.46246166459987!3d22.845444783649533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff9071cb47152f%3A0xf04b212290718952!2sKhulna!5e0!3m2!1sen!2sbd!4v1655290697146!5m2!1sen!2sbd"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+    <!-- progressbar area -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="title text-center">
+          <h2>Our Progress</h2>
+        </div>
+      <div class="skill mb-40">
+        <h6>Html</h6>
+        <div class="progress mb-20">
+          <div class="progress-bar wow animate__fadeInLeft" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+          data-wow-duration="1s" data-wow-delay=".5s"
+          >90%</div>
+        </div>
+        <h6>CSS</h6>
+        <div class="progress mb-20">
+          <div class="progress-bar wow animate__fadeInLeft" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+          data-wow-duration="1s" data-wow-delay="1s"
+          >70%</div>
+        </div>
+        <h6>jQuery</h6>
+        <div class="progress mb-20 ">
+          <div class="progress-bar wow animate__fadeInLeft" role="progressbar" style="width: 83%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+          data-wow-duration="1s" data-wow-delay="1.5s"
+          >83%</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      
+    </div>
+  </div>
+</div>
 
   <!-- footer area -->
   <footer class="black-bg">
     <div class="footer-top-area pt-70 pb-40">
       <div class="container">
         <div class="row">
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4 col-md-6">
             <div class="footer-widget mb-30">
               <h3>Contact Us</h3>
               <ul class="contact-list">
                 <li>1 (800) 686-6688</li>
                 <li>info.muglidesign@gmail.com</li>
                 <li>40 Baria Sreet 133/2</li>
-                <li>NewYork City, US</li>  
+                <li>NewYork City, US</li>
               </ul>
               <div class="footer-icon">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -569,7 +611,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4 col-md-6">
             <div class="footer-widget mb-30">
               <h3>Usefull links</h3>
               <ul class="footer-link">
@@ -586,7 +628,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-xl-4">
+          <div class="col-xl-4 col-lg-4 col-md-6">
             <div class="footer-widget mb-30">
               <h3>Blog & News</h3>
               <ul class="footer-blog">
@@ -618,25 +660,25 @@
     <!-- copy right area -->
     <div class="copyright-area">
       <div class="container">
-          <div class="copyright-border border-top">
-            <div class="row">
-              <div class="col-xl-6">
-                <div class="copyright-text">
-                  <p>Copyright ©2018 Mugli. All Rights Reserved</p>
-                </div>
+        <div class="copyright-border border-top">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6">
+              <div class="copyright-text">
+                <p>Copyright ©2018 Mugli. All Rights Reserved</p>
               </div>
+            </div>
 
-              <div class="col-xl-6">
-                <div class="footer-menu float-right">
-                  <div class="nav">
-                    <ul>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Contact</a></li>
-                      <li><a href="#">Support</a></li>
-                    </ul>
-                  </div>
+            <div class="col-xl-6 col-lg-6 col-md-6">
+              <div class="footer-menu float-right">
+                <div class="nav">
+                  <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Support</a></li>
+                  </ul>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -649,10 +691,14 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/jquery.scrollUp.js"></script>
   <script src="js/waypoints.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
 
 
 </body>
+
 </html>
